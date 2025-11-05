@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: <ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/img-2023mt03013:strict
+          image: 402691950139.dkr.ecr.eu-west-2.amazonaws.com/img-2023mt03013:v1.0
           imagePullPolicy: Always
           ports:
             - name: http
